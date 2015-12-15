@@ -40,7 +40,7 @@ $ docker run --rm \
 To simplify the commandline, set a bash alias in ~/.bash_aliases:
 
 ```bash
-alias acd_cli="docker run --rm -v ~/.cache/acd_cli:/home/user/.cache/acd_cli -v /tmp:/tmp zeitgeist/docker-acdcli"
+alias acd_cli="docker run --rm -v ~/.cache/acd_cli:/home/user/.cache/acd_cli -v /tmp:/tmp zeitgeist/docker-acd_cli"
 alias acdcli=acd_cli
 ```
 
